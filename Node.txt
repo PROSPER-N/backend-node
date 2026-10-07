@@ -1,0 +1,24 @@
+SUMARRY FROM TODAY'S CLASS ---NODE.JS AND EXPRESS
+
+
+WHAT IS NODE
+I understood node.js as a javascript runtime that lets you run javascript outside of the browser.
+
+
+WHAT IS EXPRESS
+While express is a framework for node.js that make building servers and APIs much simplier, without express we'd have to write the HTTP by hand but express takes care of that part and makes it much easier to focus on the routes.
+
+SETTING UP THE NODE ENVIRONMENT
+we look at how to setup the node environment using the "npm init -y" and "npm install express"
+
+
+THE REST OF THE SUMARRY FOCUSES ON 
+
+Route = which matches http methods and a path url to a function
+
+Http methods = we look at methods like { GET= which reads data, POST = which adds data, PUT= which is used to update data, DELETE = which is used to delete data} and we also look through how to handle and send requests using the http methods 
+
+HTTP Codes = the status code that tells us what happens from the http response
+{ 200 = success, 201 = created, 400 = bad request}
+
+Testing APIs using tools like Postman, innsomia,  thunder client etc.
